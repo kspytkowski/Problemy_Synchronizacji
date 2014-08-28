@@ -1,0 +1,7 @@
+Problem czytelników i pisarzy:
+Dowolna liczba wątków czyta lub pisze do jednego pliku. Dowolne z nich mogą jednocześnie czytać. Jeśli jakiś pisze to inne nie piszą ani nie czytają. W rozwiązaniu nie wolno zagłodzić żadnego wątku.
+Kompilacja:
+gcc -Wall -c -pthread -o czytelnicy_i_pisarze.o czytelnicy_i_pisarze.c
+gcc -o czytelnicy_i_pisarze czytelnicy_i_pisarze.o -lpthread
+Uruchamianie:
+./czytelnicy_i_pisarze

@@ -1,0 +1,7 @@
+Problem łazienki
+Kompilacja:
+gcc -Wall -c -pthread -o lazienka.o lazienka.c
+gcc -o lazienka lazienka.o -lpthread
+Uruchamianie:
+./lazienka
+

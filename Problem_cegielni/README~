@@ -1,0 +1,14 @@
+Problem cegielni
+Kompilacja:
+gcc -Wall -c -o cegielnia.o cegielnia.c
+gcc -Wall -c -o pracownik.o pracownik.c
+gcc -Wall -c -o ciezarowka.o ciezarowka.c
+gcc -Wall -c -o tasma.o tasma.c
+gcc -o Problem_cegielni cegielnia.o
+gcc -o Problem_cegielni_pracownik pracownik.o
+gcc -o Problem_cegielni_ciezarowka ciezarowka.o
+gcc -o Problem_cegielni_tasma tasma.o
+Uruchamianie:
+./Problem_cegielni
+
+

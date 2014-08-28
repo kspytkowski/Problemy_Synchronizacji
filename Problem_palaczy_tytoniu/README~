@@ -1,0 +1,7 @@
+Problem palaczy tytoniu
+Kompilacja:
+gcc -Wall -c -pthread -o palacze_tytoniu.o palacze_tytoniu.c
+gcc -o palacze_tytoniu palacze_tytoniu.o -lpthread
+Uruchamianie:
+./palacze_tytoniu
+

@@ -1,0 +1,15 @@
+Problem cegielni:
+Przy taśmie transportowej pracuje trzech pracowników oznaczonych przez P1, P2 i P3. Pracownicy wrzucają na taśmę cegły o masach odpowiednio 1, 2 i 3 jednostki. Na końcu taśmy stoi ciężarówka o ładowności C jednostek, którą należy zawsze załadować do pełna. Wszyscy pracownicy starają się układać cegły na taśmie najszybciej jak to możliwe. Taśma może przetransportować w danej chwili maksymalnie K sztuk cegieł. Jednocześnie jednak taśma ma ograniczony udźwig: maksymalnie M jednostek masy, tak, że niedopuszczalne jest położenie np. samych tylko cegieł najcięższych (3K>M). Po zapełnieniu ciężarówki na jej miejsce pojawia się natychmiast nowa o takich samych parametrach. Cegły „zjeżdżające" z taśmy muszą od razu trafić na samochód dokładnie w takiej kolejności jak zostały położone na taśmie. Napisz programy symulujące działanie pracowników i ciężarówki.
+Kompilacja:
+gcc -Wall -c -o cegielnia.o cegielnia.c
+gcc -Wall -c -o pracownik.o pracownik.c
+gcc -Wall -c -o ciezarowka.o ciezarowka.c
+gcc -Wall -c -o tasma.o tasma.c
+gcc -o Problem_cegielni cegielnia.o
+gcc -o Problem_cegielni_pracownik pracownik.o
+gcc -o Problem_cegielni_ciezarowka ciezarowka.o
+gcc -o Problem_cegielni_tasma tasma.o
+Uruchamianie:
+./Problem_cegielni
+
+

@@ -1,0 +1,8 @@
+Problem łazienki:
+W pewnym budynku jest toaleta użytkowana wspólnie przez panie i panów. Toaleta ta mieści trzy osoby, z oczywistych względów mogą być to albo same panie albo sami panowie. Proszę zamodelować ten problem. Oczywiście należy zapobiec głodzeniu i zakleszczeniom.
+Kompilacja:
+gcc -Wall -c -pthread -o lazienka.o lazienka.c
+gcc -o lazienka lazienka.o -lpthread
+Uruchamianie:
+./lazienka
+

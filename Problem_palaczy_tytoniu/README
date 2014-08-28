@@ -1,0 +1,8 @@
+Problem palaczy tytoniu:
+Mamy cztery wątki, trzech palaczy i lokaja. Palacze, działając w nieskończonej pętli, wypalają własnoręcznie przygotowane papierosy (tzw. „skręty”). Lokaj posiada nieskończony zapas papieru, tytoniu i zapałek, a palacze: pierwszy ma tytoń, drugi papier a trzeci zapałki. Lokaj losowo wybiera dwa z posiadanych przez siebie zasobów a palacz posiadający trzeci może wypalić papierosa. Lokaj „nie wie”, który palacz posiada jaki zasób.
+Kompilacja:
+gcc -Wall -c -pthread -o palacze_tytoniu.o palacze_tytoniu.c
+gcc -o palacze_tytoniu palacze_tytoniu.o -lpthread
+Uruchamianie:
+./palacze_tytoniu
+

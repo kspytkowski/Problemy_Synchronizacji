@@ -1,0 +1,6 @@
+Problem czytelników i pisarzy
+Kompilacja:
+gcc -Wall -c -pthread -o czytelnicy_i_pisarze.o czytelnicy_i_pisarze.c
+gcc -o czytelnicy_i_pisarze czytelnicy_i_pisarze.o -lpthread
+Uruchamianie:
+./czytelnicy_i_pisarze

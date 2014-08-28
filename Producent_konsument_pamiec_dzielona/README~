@@ -1,0 +1,7 @@
+Producent, konsument z wykorzystaniem pamięci dzielonej
+Kompilacja:
+gcc -Wall -c -o odczyt_tekstu.o odczyt_tekstu.c
+gcc -o odczyt_tekstu odczyt_tekstu.o
+Uruchamianie:
+./odczyt_tekstu
+
