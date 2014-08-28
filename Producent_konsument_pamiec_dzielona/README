@@ -1,6 +1,5 @@
 Producent, konsument z wykorzystaniem pamięci dzielonej:
-Mamy dwie grupy procesów nadawców i odbiorców. Ilość nadawców oraz szybkość pracy poszczególnego nadawcy opisane są w pliku konfiguracyjnym. Podobnie jest z odbiorcami. Obie grupy procesów korzystają ze wspólnego bufora (pamięć dzielona). Dane do nadawania znajdują się w pliku tekstowym. Jest to dowolny tekst. Pojedynczy nadawca pobiera pojedyncza literę z pliku i wysyła do odbiorcy. Odbiorcy wypisują otrzymane dane na
-ekranie. Zasymuluj działanie systemu tak aby tekst pokazany na ekranie był tożsamy z tekstem źródłowym.
+Mamy dwie grupy procesów nadawców i odbiorców. Ilość nadawców oraz szybkość pracy poszczególnego nadawcy opisane są w pliku konfiguracyjnym. Podobnie jest z odbiorcami. Obie grupy procesów korzystają ze wspólnego bufora (pamięć dzielona). Dane do nadawania znajdują się w pliku tekstowym. Jest to dowolny tekst. Pojedynczy nadawca pobiera pojedyncza literę z pliku i wysyła do odbiorcy. Odbiorcy wypisują otrzymane dane na ekranie. Zasymuluj działanie systemu tak aby tekst pokazany na ekranie był tożsamy z tekstem źródłowym.
 Kompilacja:
 gcc -Wall -c -o odczyt_tekstu.o odczyt_tekstu.c
 gcc -o odczyt_tekstu odczyt_tekstu.o
